@@ -14,9 +14,8 @@ public CheckingAccount(){
 	this.balance = 0d;
 } // end constructor
 
-public static void main(String[] args){
-	SavingsAccount sa =new Savingsaccount();
-	sa.start();
-} // end main
+public CheckingAccount(){
+	this.balance = balance;
+} // end constructor 	
 
 
